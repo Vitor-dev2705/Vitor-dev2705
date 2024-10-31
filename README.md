@@ -14,3 +14,8 @@ Tecnologias e Ferramentas 🛠️
 Projetos Recentes 💻
 
     - Sistema de Controle de Estoque
+
+📫 Contato
+
+    LinkedIn: www.linkedin.com/in/anderson-vitor-soares-teles-a286241aa
+    E-mail: Telesanderson123@gmail.com
