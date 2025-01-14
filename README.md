@@ -46,7 +46,7 @@ Bem-vindo ao meu repositório! Sou Anderson Vitor, um desenvolvedor de software 
 - **Certificados**: Engenharia de Dados, Fundamentos de Python, Power BI, Análise de Dados com Python
 
 # Projetos
-
+```bash
 ## 1. [Gerenciador-de-Tarefas](https://github.com/Vitor-dev2705/Gerenciador-de-Tarefas.git)  
 API para gerenciamento de tarefas desenvolvida com **FastAPI**. Este projeto permite a criação, leitura, atualização e exclusão de tarefas (CRUD) de forma simples e eficiente.  
 
@@ -54,7 +54,9 @@ API para gerenciamento de tarefas desenvolvida com **FastAPI**. Este projeto per
 - Gerenciamento de tarefas com endpoints RESTful.  
 - Documentação interativa gerada automaticamente com **Swagger**.  
 - Configuração simples para deploy e execução local.  
-
+ 
+   git clone https://github.com/seu-usuario/electronSheet.git](https://github.com/Vitor-dev2705/Gerenciador-de-Tarefas.git
+   cd electronSheet
 ---
 
 ## 2. [ElectronSheet](https://github.com/seu-usuario/electronSheet.git)  
@@ -70,7 +72,7 @@ API para gerenciamento de tarefas desenvolvida com **FastAPI**. Este projeto per
    ```bash
    git clone https://github.com/seu-usuario/electronSheet.git
    cd electronSheet
-
+```
 ## 📬 Contato
 
 - **LinkedIn**: www.linkedin.com/in/anderson-vitor-soares-teles
