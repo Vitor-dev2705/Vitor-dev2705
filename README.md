@@ -53,7 +53,7 @@ Aqui estão alguns dos projetos em que estou trabalhando ou que concluí recente
 
 ## 📬 Contato
 
-- **LinkedIn**: [www.linkedin.com/in/anderson-vitor-soares-teles-a286241aa/](www.linkedin.com/in/anderson-vitor-soares-teles-a286241aa)
+- **LinkedIn**: www.linkedin.com/in/anderson-vitor-soares-teles
 - **Email**: Telesanderson123@gmail.com
 
 Sinta-se à vontade para explorar meus projetos e entrar em contato caso queira colaborar em algo ou se tiver alguma dúvida!
