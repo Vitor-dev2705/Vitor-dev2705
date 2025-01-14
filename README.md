@@ -49,7 +49,7 @@ Bem-vindo ao meu repositório! Sou Anderson Vitor, um desenvolvedor de software 
 
 Aqui estão alguns dos projetos em que estou trabalhando ou que concluí recentemente:
 
-- **[Gerenciador de Tarefas](https://github.com/anderson-teles/gerenciador-de-tarefas)**: API para gerenciamento de tarefas com FastAPI.
+- **https://github.com/anderson-teles/gerenciador-de-tarefas**: API para gerenciamento de tarefas com FastAPI.
 
 ## 📬 Contato
 
