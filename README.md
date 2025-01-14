@@ -45,11 +45,31 @@ Bem-vindo ao meu repositório! Sou Anderson Vitor, um desenvolvedor de software 
 - **Curso Técnico em Informática**
 - **Certificados**: Engenharia de Dados, Fundamentos de Python, Power BI, Análise de Dados com Python
 
-## 📈 Projetos em Destaque
+# Projetos
 
-Aqui estão alguns dos projetos em que estou trabalhando ou que concluí recentemente:
+## 1. [Gerenciador-de-Tarefas](https://github.com/Vitor-dev2705/Gerenciador-de-Tarefas.git)  
+API para gerenciamento de tarefas desenvolvida com **FastAPI**. Este projeto permite a criação, leitura, atualização e exclusão de tarefas (CRUD) de forma simples e eficiente.  
 
-- [ Gerenciador-de-Tarefas ]  https://github.com/Vitor-dev2705/Gerenciador-de-Tarefas.git API para gerenciamento de tarefas com FastAPI.
+### Funcionalidades:  
+- Gerenciamento de tarefas com endpoints RESTful.  
+- Documentação interativa gerada automaticamente com **Swagger**.  
+- Configuração simples para deploy e execução local.  
+
+---
+
+## 2. [ElectronSheet](https://github.com/seu-usuario/electronSheet.git)  
+**ElectronSheet** é uma aplicação desktop desenvolvida com o framework **Electron**, projetada para facilitar a manipulação de planilhas Excel.  
+
+### Funcionalidades:  
+- **Inserção de dados em planilhas Excel**: Adicione valores sem perder a formatação original das células.  
+- **Leitura e cálculos automatizados**: Extraia informações de planilhas e realize cálculos complexos.  
+- **Interface amigável**: Fácil de usar, ideal para lidar com grandes volumes de dados.  
+
+### Instalação:  
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/seu-usuario/electronSheet.git
+   cd electronSheet
 
 ## 📬 Contato
 
