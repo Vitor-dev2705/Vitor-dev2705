@@ -24,9 +24,6 @@
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-564D4B?style=for-the-badge)
 
-## 📄 English README
-[English README](#) <!-- Link para outro arquivo ou seção -->
-
 ## 📊 GitHub Stats
 <!-- Use shields ou Github Readme Stats -->
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Vitor-dev2705&show_icons=true&theme=dark)
