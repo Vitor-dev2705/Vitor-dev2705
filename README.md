@@ -123,17 +123,45 @@ Sistema automatizado para emissão e controle de faturas com integração de ban
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Minhas estatísticas no GitHub
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vitor-dev2705&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vitor-dev2705&layout=compact&theme=radical&hide_border=true&bg_color=0D1117)
+### 📊 Estatísticas do GitHub
+- ⭐ **Total Stars Earned:** 27  
+- 💻 **Total Commits (last year):** 695  
+- 🔃 **Total PRs:** 5  
+- 🐞 **Total Issues:** 0  
+- 🔗 **Contributed to (last year):** 2  
+- 📈 **Média de desempenho:** **B-**
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Vitor-dev2705&theme=radical&hide_border=true&background=0D1117)
+</td>
+<td width="50%" valign="top">
+
+### 🖥️ Linguagens Mais Usadas
+- **Java:** 39.53%
+- **Python:** 21.77%
+- **HTML:** 10.26%
+- **JavaScript:** 10.15%
+- **CSS:** 9.71%
+- **PLpgSQL:** 8.56%
+
+</td>
+</tr>
+</table>
+
+---
+
+### 📊 Gráfico de Atividades
+
+![Gráfico de atividades](https://github-readme-activity-graph.vercel.app/graph?username=Vitor-dev2705&theme=react-dark)
 
 </div>
+
 
 ---
 
