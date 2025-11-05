@@ -115,12 +115,6 @@ Sistema automatizado para emissão e controle de faturas com integração de ban
 </table>
 
 
-**Principais recursos:**
-- Geração automática de faturas
-- Controle de pagamentos
-- Relatórios financeiros
-- Gestão de clientes
-
 ---
 
 ## 🚀 Minhas estatísticas no GitHub
