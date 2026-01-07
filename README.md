@@ -112,19 +112,6 @@ Sistema automatizado para emissão e controle de faturas com integração de ban
 </td>
 </tr>
 
-
-<tr>
-<td width="50%" valign="top">
-#### 📃 Reivitaliza - Site de limpeza de Estofados
-
-https://github.com/Vitor-dev2705/Reivitaliza-Plataforma-de-Higieniza-o-e-Limpeza-Profissional
-
-</td>
-<td width="50%" valign="top">
-
-</td>
-</tr>
-
 </table>
 
 
