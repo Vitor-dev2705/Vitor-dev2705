@@ -21,19 +21,17 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-
 ## 🛠 Tecnologias & Ferramentas
 
 | Linguagens      | Frameworks/Libs           | IDE's/Tools         | Banco de Dados           | Outros            |
-|-----------------|--------------------------|---------------------|--------------------------|-------------------|
+|-----------------|---------------------------|---------------------|--------------------------|-------------------|
 | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
 | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) | ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white) |
 | ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) | ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white) | ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) | ![Electron](https://img.shields.io/badge/Electron-2C2E3A?style=for-the-badge&logo=electron&logoColor=white) |
-| ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) | ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-564D4B?style=for-the-badge) | ![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-6C78AF?style=for-the-badge&logo=php&logoColor=white) |
-| ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) | | | | |
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | | | | |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | | | | |
-
+| ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) | ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |  | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-564D4B?style=for-the-badge) | ![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-6C78AF?style=for-the-badge&logo=php&logoColor=white) |
+| ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) |  |  |  |  |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |  |  |  |  |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |  |  |  |  |
 
 ## 🚀 Meus melhores projetos
 
@@ -109,11 +107,20 @@ Sistema automatizado para emissão e controle de faturas com integração de ban
 </td>
 <td width="50%" valign="top">
 
+#### 🧼 REIVITALIZAR
+[![Reivitaliza](https://img.shields.io/badge/Site-Reivitaliza-FF6B6B?style=for-the-badge)](https://github.com/Vitor-dev2705/Sistema-de-Faturamento)
+
+🔗 [Reivitaliza](https://github.com/Vitor-dev2705/Reivitaliza-Plataforma-de-Higieniza-o-e-Limpeza-Profissional/blob/main/README.md)
+
+
+O **Reivitaliza** é uma aplicação web desenvolvida em **React.js** com o objetivo de apresentar serviços de **higienização e revitalização de estofados, colchões, tapetes, cortinas e outros itens**.  
+
+**Stack:** React, Neon, JavaScript
+
 </td>
 </tr>
 
 </table>
-
 
 ---
 
@@ -137,12 +144,12 @@ Sistema automatizado para emissão e controle de faturas com integração de ban
 <td width="50%" valign="top">
 
 ### 🖥️ Linguagens Mais Usadas
-- **Java:** 39.53%
-- **Python:** 21.77%
-- **HTML:** 10.26%
-- **JavaScript:** 10.15%
-- **CSS:** 9.71%
-- **PLpgSQL:** 8.56%
+- **Java:** 39.53%  
+- **Python:** 21.77%  
+- **HTML:** 10.26%  
+- **JavaScript:** 10.15%  
+- **CSS:** 9.71%  
+- **PLpgSQL:** 8.56%  
 
 </td>
 </tr>
@@ -156,12 +163,13 @@ Sistema automatizado para emissão e controle de faturas com integração de ban
 
 </div>
 
-
 ---
 
 ## 💡 Sobre Mim
 
 Desenvolvedor Full Stack com experiência em projetos reais de automação de sistemas, controle financeiro e integração blockchain. Foco em criar soluções práticas com interfaces modernas usando React e banco de dados MySQL/PostgreSQL.
+
+---
 
 <div align="center">
 
