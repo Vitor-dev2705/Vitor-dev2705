@@ -167,7 +167,7 @@ Desenvolvedor Full Stack com experiência em projetos reais de automação de si
 
 ## 📫 Contato
 
-| ![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white) | telesnanderson123gmail.com |
+| ![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white) | telesanderson123gmail.com |
 |---|---|
 | ![Telefone](https://img.shields.io/badge/Telefone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white) | (61) 98256-6269 |
 
