@@ -1,4 +1,3 @@
-
 ## 🚀 Meus Projetos
 
 <p align="center">
@@ -71,7 +70,7 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 ## 📫 Contato
 
 <p align="center">
-  <a href="mailto:SEUEMAIL@gmail.com">
+  <a href="mailto:telesanderson123@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 
@@ -79,9 +78,10 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
     <img src="https://img.shields.io/badge/WhatsApp-61%2098256--6269-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
   </a>
 
-  <a href="SEU_LINKEDIN_AQUI">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+<a href="www.linkedin.com/in/anderson-vitor">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
 </p>
 
 ---
