@@ -20,40 +20,74 @@ https.get(options, (res) => {
     let repos = JSON.parse(data)
       .filter(repo => !repo.fork && repo.size > 0);
 
-    repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
+    // Ordena por estrelas e depois por atualização
+    repos.sort((a, b) => {
+      if (b.stargazers_count === a.stargazers_count) {
+        return new Date(b.updated_at) - new Date(a.updated_at);
+      }
+      return b.stargazers_count - a.stargazers_count;
+    });
 
     const topProjects = repos.slice(0, 6);
     const otherProjects = repos.slice(6);
 
-    const buildCard = (repo) => `
-<td align="center" width="33%">
-<a href="${repo.html_url}">
-<b>${repo.name}</b><br/>
-${repo.description || "Projeto Full Stack"}<br/>
-⭐ ${repo.stargazers_count} | 🛠 ${repo.language || "N/A"}
-</a>
-</td>
+    // ====== SEÇÃO DE DESTAQUE ======
+    let topSection = `
+<h3 align="center">🔥 Projetos em Destaque</h3>
+
+<div align="center">
 `;
 
-    let topSection = `<h3>🔥 Projetos em Destaque</h3>\n<div align="center"><table><tr>`;
-    let col = 0;
-
     topProjects.forEach(repo => {
-      if (col === 3) {
-        topSection += `</tr><tr>`;
-        col = 0;
-      }
-      topSection += buildCard(repo);
-      col++;
+      topSection += `
+<div style="
+  display:inline-block;
+  width:45%;
+  margin:10px;
+  padding:15px;
+  border-radius:12px;
+  background-color:#0d1117;
+  border:1px solid #30363d;
+  vertical-align:top;
+">
+  <a href="${repo.html_url}" style="text-decoration:none;">
+    <h3>${repo.name}</h3>
+    <p>${repo.description || "Projeto Full Stack"}</p>
+    <p>
+      ⭐ ${repo.stargazers_count} &nbsp; | &nbsp;
+      🛠 ${repo.language || "N/A"} &nbsp; | &nbsp;
+      ${repo.private ? "🔒 Privado" : "🌍 Público"}
+    </p>
+  </a>
+</div>
+`;
     });
 
-    topSection += `</tr></table></div>`;
+    topSection += `</div>`;
 
-    let otherSection = `\n\n<h3>📦 Outros Projetos</h3>\n`;
+    // ====== OUTROS PROJETOS ======
+    let otherSection = `
+<br/>
+
+<h3 align="center">📦 Outros Projetos</h3>
+
+<div align="center">
+`;
 
     otherProjects.forEach(repo => {
-      otherSection += `- [${repo.name}](${repo.html_url}) — ${repo.language || "N/A"}\n`;
+      otherSection += `
+<div style="
+  margin:6px;
+">
+  <a href="${repo.html_url}">
+    <b>${repo.name}</b>
+  </a>
+  — ${repo.language || "N/A"} ${repo.private ? "🔒" : ""}
+</div>
+`;
     });
+
+    otherSection += `</div>`;
 
     const finalContent = `
 ${topSection}
