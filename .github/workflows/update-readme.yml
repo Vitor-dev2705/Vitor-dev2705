@@ -1,0 +1,64 @@
+name: Update README Automatically
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate README
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const username = "Vitor-dev2705";
+            const repos = await github.rest.repos.listForUser({
+              username,
+              per_page: 100,
+              sort: "updated"
+            });
+
+            let content = `# 👨‍💻 Anderson Vitor Soares Teles
+
+## 🚀 Full Stack Developer
+
+Desenvolvedor Full Stack focado em aplicações modernas e escaláveis.
+
+---
+
+## 🚀 Projetos
+
+`;
+
+            repos.data
+              .filter(repo => !repo.fork)
+              .forEach(repo => {
+                content += `
+### 🔹 ${repo.name}
+${repo.description || "Sem descrição."}
+
+⭐ Stars: ${repo.stargazers_count}  
+🛠 Linguagem: ${repo.language || "Não definida"}  
+🔗 https://github.com/${username}/${repo.name}
+
+---
+`;
+              });
+
+            require('fs').writeFileSync("README.md", content);
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "🤖 Atualizando README automaticamente" || echo "Sem mudanças"
+          git push
