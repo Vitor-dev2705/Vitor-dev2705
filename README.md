@@ -5,7 +5,27 @@
 
 <!-- TEXTO ANIMADO -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Desenvolvedor+Full+Stack;React+%7C+Node+%7C+Python;Criando+Solu%C3%A7%C3%B5es+Inteligentes;Transformando+Ideias+em+C%C3%B3digo" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React+%7C+Node+%7C+Python;Aplicações+Modernas+e+Escaláveis;Transformando+Ideias+em+C%C3%B3digo" />
+</p>
+
+---
+
+## 👨‍💻 Sobre Mim
+
+Desenvolvedor Full Stack focado na criação de aplicações modernas, performáticas e escaláveis.
+
+Atuo no desenvolvimento de interfaces intuitivas com React, construção de APIs com Node.js e Python, além de integração com bancos de dados SQL e NoSQL.
+
+Tenho foco em código limpo, boas práticas, versionamento com Git e evolução contínua.
+
+🎯 Objetivo: Contribuir em projetos desafiadores e gerar impacto real através da tecnologia.
+
+---
+
+## 🛠️ Tecnologias
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,python,express,mysql,mongodb,git,github,vscode" />
 </p>
 
 ---
@@ -20,16 +40,16 @@
 ## 📊 Estatísticas
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Vitor-dev2705&show_icons=true&theme=tokyonight&border_radius=10"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitor-dev2705&layout=compact&theme=tokyonight&border_radius=10"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Vitor-dev2705&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitor-dev2705&layout=compact&theme=tokyonight&border_radius=10&hide_border=true"/>
 </p>
 
 ---
 
-## 📈 Atividade
+## 📈 Atividade no GitHub
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vitor-dev2705&theme=tokyo-night"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vitor-dev2705&theme=tokyo-night&hide_border=true"/>
 </p>
 
 ---
@@ -42,24 +62,26 @@
 
 ---
 
-## 💡 Sobre Mim
-
-Desenvolvedor Full Stack focado em criar aplicações modernas, performáticas e escaláveis.  
-Experiência com React, Node.js, Python, bancos de dados SQL e integração de sistemas.
-
----
-
 ## 📫 Contato
 
 <p align="center">
-  <a href="mailto:telesanderson123gmail.com">
+  <a href="mailto:SEUEMAIL@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <img src="https://img.shields.io/badge/WhatsApp-61%2098256--6269-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+
+  <a href="https://wa.me/5561982566269">
+    <img src="https://img.shields.io/badge/WhatsApp-61%2098256--6269-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  </a>
+
+  <a href="SEU_LINKEDIN_AQUI">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
 </p>
 
+---
+
 <p align="center">
-  <b>"Transformando problemas em soluções através do código"</b>
+  <b>“Transformando problemas em soluções através do código.”</b>
 </p>
 
 <p align="center">
