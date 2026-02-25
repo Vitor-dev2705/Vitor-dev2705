@@ -1,21 +1,32 @@
-name: Update Projects List
+name: Update Projects
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - uses: DenverCoder1/readme-repos-list@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          username: Vitor-dev2705
-          commit_message: "Atualizando lista de projetos"
+      - name: Run all scripts
+        run: |
+          for file in .github/scripts/*.js; do
+            node $file
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "🤖 Atualizando automaticamente" || echo "Sem mudanças"
+          git push
