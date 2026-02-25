@@ -1,29 +1,16 @@
-## 🚀 Meus Projetos
-
 <p align="center">
-  <a href="https://github.com/Vitor-dev2705?tab=repositories">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vitor-dev2705&theme=tokyonight" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=200&section=header&text=Vitor%20Dev&fontSize=70&animation=fadeIn"/>
 </p>
-
-<br>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=REPO1&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=REPO2&theme=tokyonight&hide_border=true"/>
-</p>
-
----
 
 ## 👨‍💻 Sobre Mim
 
-Desenvolvedor Full Stack focado na criação de aplicações modernas, performáticas e escaláveis.
+Desenvolvedor **Full Stack** focado na criação de aplicações modernas, performáticas e escaláveis.
 
-Atuo no desenvolvimento de interfaces intuitivas com React, construção de APIs com Node.js e Python, além de integração com bancos de dados SQL e NoSQL.
+Atuo no desenvolvimento de interfaces intuitivas com **React**, construção de APIs com **Node.js** e **Python**, além de integração com bancos de dados SQL e NoSQL.
 
 Tenho foco em código limpo, boas práticas, versionamento com Git e evolução contínua.
 
-🎯 Objetivo: Contribuir em projetos desafiadores e gerar impacto real através da tecnologia.
+🎯 **Objetivo:** Contribuir em projetos desafiadores e gerar impacto real através da tecnologia.
 
 ---
 
@@ -35,14 +22,16 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 
 ---
 
-## 🚀 Meus Projetos
-
-<!--START_PROJECTS-->
-<!--END_PROJECTS-->
-
+## 🚀 Projetos Dinâmicos
 ---
 
-## 📊 Estatísticas
+## 📊 Estatísticas e Repositórios
+
+<p align="center">
+  <a href="https://github.com/Vitor-dev2705?tab=repositories">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vitor-dev2705&theme=tokyonight" />
+  </a>
+</p>
 
 <p align="center">
   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Vitor-dev2705&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true"/>
@@ -51,18 +40,15 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 
 ---
 
-## 📈 Atividade no GitHub
+## 📈 Atividade e Contribuições
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vitor-dev2705&theme=tokyo-night&hide_border=true"/>
 </p>
 
----
-
-## 🐍 Contribuições Animadas
-
+<h3 align="center">🐍 Jogo da Cobrinha (Contribuições)</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vitor-dev2705/Vitor-dev2705/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Vitor-dev2705/Vitor-dev2705/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ---
@@ -78,10 +64,9 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
     <img src="https://img.shields.io/badge/WhatsApp-61%2098256--6269-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
   </a>
 
-<a href="www.linkedin.com/in/anderson-vitor">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
+  <a href="https://www.linkedin.com/in/anderson-vitor">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
 </p>
 
 ---
