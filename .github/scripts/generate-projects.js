@@ -1,11 +1,7 @@
 const fs = require("fs");
 const https = require("https");
-const path = require("path");
 
 const token = process.env.GITHUB_TOKEN;
-
-
-const readmePath = path.join(__dirname, "../../README.md");
 
 const options = {
   hostname: "api.github.com",
@@ -18,78 +14,40 @@ const options = {
 
 https.get(options, (res) => {
   let data = "";
-
   res.on("data", (chunk) => (data += chunk));
   res.on("end", () => {
     try {
       const repos = JSON.parse(data);
-      
-      if (!Array.isArray(repos)) {
-        console.error("Erro na API do GitHub:", repos);
-        return;
-      }
+      if (!Array.isArray(repos)) return;
 
       const filteredRepos = repos
         .filter(repo => !repo.fork && repo.size > 0 && repo.name !== "Vitor-dev2705")
-        .sort((a, b) => {
-          if (b.stargazers_count === a.stargazers_count) {
-            return new Date(b.updated_at) - new Date(a.updated_at);
-          }
-          return b.stargazers_count - a.stargazers_count;
-        });
+        .sort((a, b) => b.stargazers_count - a.stargazers_count)
+        .slice(0, 6);
 
-      const topProjects = filteredRepos.slice(0, 6);
-      const otherProjects = filteredRepos.slice(6);
+      let content = `\n<div align="center">\n`;
 
-      let topSection = `<h3 align="center">🔥 Projetos em Destaque</h3>\n<div align="center">\n`;
-
-      topProjects.forEach(repo => {
-        topSection += `
-<div style="display:inline-block; width:45%; margin:10px; padding:15px; border-radius:12px; background-color:#0d1117; border:1px solid #30363d; vertical-align:top; text-align:left;">
-  <a href="${repo.html_url}" style="text-decoration:none; color:#58a6ff;">
-    <h3 style="margin-top:0;">${repo.name}</h3>
-    <p style="color:#8b949e; font-size:14px;">${repo.description || "Projeto Full Stack"}</p>
-    <p style="font-size:12px; color:#c9d1d9;">
-      ⭐ ${repo.stargazers_count} &nbsp; | &nbsp;
-      🛠 ${repo.language || "N/A"} &nbsp; | &nbsp;
-      ${repo.private ? "🔒 Privado" : "🌍 Público"}
-    </p>
-  </a>
-</div>\n`;
+      filteredRepos.forEach(repo => {
+        // Usando uma estrutura que o GitHub renderiza melhor
+        content += `
+<a href="${repo.html_url}">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=${repo.name}&theme=tokyonight&hide_border=true" />
+</a>`;
       });
-      topSection += `</div>`;
 
-      let otherSection = `\n<br/>\n<h3 align="center">📦 Outros Projetos</h3>\n<div align="center">\n`;
+      content += `\n</div>\n`;
 
-      otherProjects.forEach(repo => {
-        otherSection += `
-<div style="margin:6px;">
-  <a href="${repo.html_url}" style="color:#58a6ff; text-decoration:none;">
-    <b>${repo.name}</b>
-  </a>
-  <span style="color:#8b949e;"> — ${repo.language || "N/A"} ${repo.private ? "🔒" : ""}</span>
-</div>\n`;
-      });
-      otherSection += `</div>`;
+      const readmePath = "README.md";
+      const readme = fs.readFileSync(readmePath, "utf8");
+      const updated = readme.replace(
+        /[\s\S]*/,
+        `\n${content}\n`
+      );
 
-      const finalContent = `${topSection}\n${otherSection}`;
-
-      if (fs.existsSync(readmePath)) {
-        const readme = fs.readFileSync(readmePath, "utf8");
-        const updated = readme.replace(
-          /[\s\S]*/,
-          `\n${finalContent}\n`
-        );
-
-        fs.writeFileSync(readmePath, updated);
-        console.log("✅ README atualizado com sucesso!");
-      } else {
-        console.error("❌ Arquivo README.md não encontrado em:", readmePath);
-      }
-    } catch (err) {
-      console.error("❌ Erro ao processar dados:", err.message);
+      fs.writeFileSync(readmePath, updated);
+      console.log("README atualizado!");
+    } catch (e) {
+      console.error("Erro:", e);
     }
   });
-}).on("error", (err) => {
-  console.error("❌ Erro na requisição HTTP:", err.message);
 });
