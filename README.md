@@ -1,6 +1,6 @@
 <!-- HEADER ANIMADO -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=250&section=header&text=Anderson%20Vitor&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=250&section=header&text=Anderson%20Soares%20Teles&fontSize=45&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <!-- TEXTO ANIMADO -->
