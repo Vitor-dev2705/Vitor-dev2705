@@ -1,11 +1,17 @@
-<!-- HEADER ANIMADO -->
+
+## 🚀 Meus Projetos
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=250&section=header&text=Anderson%20Vitor&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+  <a href="https://github.com/Vitor-dev2705?tab=repositories">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vitor-dev2705&theme=tokyonight" />
+  </a>
 </p>
 
-<!-- TEXTO ANIMADO -->
+<br>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React+%7C+Node+%7C+Python;Aplicações+Modernas+e+Escaláveis;Transformando+Ideias+em+C%C3%B3digo" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=REPO1&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=REPO2&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
