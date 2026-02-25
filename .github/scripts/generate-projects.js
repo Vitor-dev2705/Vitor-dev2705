@@ -12,38 +12,40 @@ https.get(
     res.on("data", (chunk) => (data += chunk));
     res.on("end", () => {
       const repos = JSON.parse(data)
-        .filter((repo) => !repo.fork)
-        .sort((a, b) => b.stargazers_count - a.stargazers_count);
+        .filter(repo => !repo.fork)
+        .sort((a, b) => b.stargazers_count - a.stargazers_count)
+        .slice(0, 6);
 
-      const table = `
+      const cards = `
+<div align="center">
 <table>
 <tr>
-<th>Projeto</th>
-<th>Descrição</th>
-<th>Linguagem</th>
-<th>⭐ Stars</th>
+${repos.slice(0, 3).map(repo => `
+<td align="center" width="33%">
+<a href="${repo.html_url}">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+</a>
+</td>
+`).join("")}
 </tr>
-
-${repos
-  .map(
-    (repo) => `
 <tr>
-<td><a href="${repo.html_url}">${repo.name}</a></td>
-<td>${repo.description || "Sem descrição"}</td>
-<td>${repo.language || "-"}</td>
-<td>${repo.stargazers_count}</td>
-</tr>`
-  )
-  .join("")}
-
+${repos.slice(3, 6).map(repo => `
+<td align="center" width="33%">
+<a href="${repo.html_url}">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+</a>
+</td>
+`).join("")}
+</tr>
 </table>
+</div>
 `;
 
       const readme = fs.readFileSync("README.md", "utf8");
 
       const updated = readme.replace(
         /<!--START_PROJECTS-->[\s\S]*<!--END_PROJECTS-->/,
-        `<!--START_PROJECTS-->${table}<!--END_PROJECTS-->`
+        `<!--START_PROJECTS-->${cards}<!--END_PROJECTS-->`
       );
 
       fs.writeFileSync("README.md", updated);
