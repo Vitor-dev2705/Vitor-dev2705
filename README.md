@@ -70,9 +70,7 @@ Tenho foco em:
 
 ## 🐍 Contribuições
 
-<p align="center">
-  <img src="snake.svg" width="100%"/>
-</p>
+<img src="snake.svg" width="100%">
 
 ---
 
