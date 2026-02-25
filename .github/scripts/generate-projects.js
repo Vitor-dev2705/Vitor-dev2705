@@ -20,6 +20,7 @@ https.get(options, (res) => {
       const repos = JSON.parse(data);
       if (!Array.isArray(repos)) return;
 
+      // Filtra (remove forks e o próprio repo do perfil) e pega os 6 melhores
       const filteredRepos = repos
         .filter(repo => !repo.fork && repo.size > 0 && repo.name !== "Vitor-dev2705")
         .sort((a, b) => b.stargazers_count - a.stargazers_count)
@@ -28,26 +29,25 @@ https.get(options, (res) => {
       let content = `\n<div align="center">\n`;
 
       filteredRepos.forEach(repo => {
-        // Usando uma estrutura que o GitHub renderiza melhor
-        content += `
-<a href="${repo.html_url}">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=${repo.name}&theme=tokyonight&hide_border=true" />
-</a>`;
+        // Usando o formato de Pin que o GitHub aceita perfeitamente
+        content += `  <a href="${repo.html_url}">\n    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=${repo.name}&theme=tokyonight&hide_border=true" />\n  </a>\n`;
       });
 
-      content += `\n</div>\n`;
+      content += `</div>\n`;
 
       const readmePath = "README.md";
       const readme = fs.readFileSync(readmePath, "utf8");
+      
+      // Substitui o conteúdo entre as tags
       const updated = readme.replace(
         /[\s\S]*/,
         `\n${content}\n`
       );
 
       fs.writeFileSync(readmePath, updated);
-      console.log("README atualizado!");
+      console.log("✅ Projetos atualizados com sucesso!");
     } catch (e) {
-      console.error("Erro:", e);
+      console.error("❌ Erro ao processar:", e.message);
     }
   });
 });
