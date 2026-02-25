@@ -1,7 +1,6 @@
 const fs = require("fs");
 const https = require("https");
 
-const username = "Vitor-dev2705";
 const token = process.env.GITHUB_TOKEN;
 
 const options = {
@@ -18,39 +17,54 @@ https.get(options, (res) => {
 
   res.on("data", (chunk) => (data += chunk));
   res.on("end", () => {
-    const repos = JSON.parse(data)
-      .filter(repo => !repo.fork)
-      .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+    let repos = JSON.parse(data)
+      .filter(repo => !repo.fork && repo.size > 0);
 
-    let content = `<div align="center">\n<table>\n<tr>\n`;
-    let col = 0;
+    repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
 
-    repos.forEach(repo => {
-      if (col === 3) {
-        content += `</tr>\n<tr>\n`;
-        col = 0;
-      }
+    const topProjects = repos.slice(0, 6);
+    const otherProjects = repos.slice(6);
 
-      content += `
+    const buildCard = (repo) => `
 <td align="center" width="33%">
 <a href="${repo.html_url}">
 <b>${repo.name}</b><br/>
-${repo.description || "Sem descrição."}<br/>
+${repo.description || "Projeto Full Stack"}<br/>
 ⭐ ${repo.stargazers_count} | 🛠 ${repo.language || "N/A"}
 </a>
 </td>
 `;
 
+    let topSection = `<h3>🔥 Projetos em Destaque</h3>\n<div align="center"><table><tr>`;
+    let col = 0;
+
+    topProjects.forEach(repo => {
+      if (col === 3) {
+        topSection += `</tr><tr>`;
+        col = 0;
+      }
+      topSection += buildCard(repo);
       col++;
     });
 
-    content += `</tr>\n</table>\n</div>`;
+    topSection += `</tr></table></div>`;
+
+    let otherSection = `\n\n<h3>📦 Outros Projetos</h3>\n`;
+
+    otherProjects.forEach(repo => {
+      otherSection += `- [${repo.name}](${repo.html_url}) — ${repo.language || "N/A"}\n`;
+    });
+
+    const finalContent = `
+${topSection}
+${otherSection}
+`;
 
     const readme = fs.readFileSync("README.md", "utf8");
 
     const updated = readme.replace(
       /<!--START_PROJECTS-->[\s\S]*<!--END_PROJECTS-->/,
-      `<!--START_PROJECTS-->\n${content}\n<!--END_PROJECTS-->`
+      `<!--START_PROJECTS-->\n${finalContent}\n<!--END_PROJECTS-->`
     );
 
     fs.writeFileSync("README.md", updated);
