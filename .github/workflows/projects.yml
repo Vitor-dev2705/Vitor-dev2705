@@ -1,0 +1,21 @@
+name: Update Projects List
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: DenverCoder1/readme-repos-list@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          username: Vitor-dev2705
+          commit_message: "Atualizando lista de projetos"
