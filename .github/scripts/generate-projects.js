@@ -2,29 +2,36 @@ const fs = require("fs");
 const https = require("https");
 
 const username = "Vitor-dev2705";
+const token = process.env.GITHUB_TOKEN;
 
-https.get(
-  `https://api.github.com/users/${username}/repos?per_page=100`,
-  { headers: { "User-Agent": "node" } },
-  (res) => {
-    let data = "";
+const options = {
+  hostname: "api.github.com",
+  path: "/user/repos?per_page=100",
+  headers: {
+    "User-Agent": "node",
+    Authorization: `Bearer ${token}`
+  }
+};
 
-    res.on("data", (chunk) => (data += chunk));
-    res.on("end", () => {
-      const repos = JSON.parse(data)
-        .filter(repo => !repo.fork)
-        .sort((a, b) => b.stargazers_count - a.stargazers_count);
+https.get(options, (res) => {
+  let data = "";
 
-      let cards = `<div align="center"><table><tr>`;
-      let count = 0;
+  res.on("data", (chunk) => (data += chunk));
+  res.on("end", () => {
+    const repos = JSON.parse(data)
+      .filter(repo => !repo.fork)
+      .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
 
-      repos.forEach((repo, index) => {
-        if (count === 3) {
-          cards += `</tr><tr>`;
-          count = 0;
-        }
+    let content = `<div align="center">\n<table>\n<tr>\n`;
+    let col = 0;
 
-        cards += `
+    repos.forEach(repo => {
+      if (col === 3) {
+        content += `</tr>\n<tr>\n`;
+        col = 0;
+      }
+
+      content += `
 <td align="center" width="33%">
 <a href="${repo.html_url}">
 <b>${repo.name}</b><br/>
@@ -32,21 +39,20 @@ ${repo.description || "Sem descrição."}<br/>
 ⭐ ${repo.stargazers_count} | 🛠 ${repo.language || "N/A"}
 </a>
 </td>
-        `;
+`;
 
-        count++;
-      });
-
-      cards += `</tr></table></div>`;
-
-      const readme = fs.readFileSync("README.md", "utf8");
-
-      const updated = readme.replace(
-        /<!--START_PROJECTS-->[\s\S]*<!--END_PROJECTS-->/,
-        `<!--START_PROJECTS-->\n${cards}\n<!--END_PROJECTS-->`
-      );
-
-      fs.writeFileSync("README.md", updated);
+      col++;
     });
-  }
-);
+
+    content += `</tr>\n</table>\n</div>`;
+
+    const readme = fs.readFileSync("README.md", "utf8");
+
+    const updated = readme.replace(
+      /<!--START_PROJECTS-->[\s\S]*<!--END_PROJECTS-->/,
+      `<!--START_PROJECTS-->\n${content}\n<!--END_PROJECTS-->`
+    );
+
+    fs.writeFileSync("README.md", updated);
+  });
+});
