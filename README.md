@@ -23,6 +23,7 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 ---
 
 ## 🚀 Projetos Dinâmicos
+
 ---
 
 ## 📊 Estatísticas e Repositórios
@@ -48,7 +49,7 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 
 <h3 align="center">🐍 Jogo da Cobrinha (Contribuições)</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vitor-dev2705/Vitor-dev2705/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ---
