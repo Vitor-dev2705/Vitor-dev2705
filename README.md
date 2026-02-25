@@ -28,18 +28,11 @@ Tenho foco em:
 
 ---
 
-## 🚀 Projetos em Destaque
+## 🚀 Projetos
 
-<div align="center">
+<!--START_PROJECTS-->
+<!--END_PROJECTS-->
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=ElectronSheets&theme=tokyonight&hide_border=true" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=duckmusic&theme=tokyonight&hide_border=true" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Gerenciador-de-Tarefas&theme=tokyonight&hide_border=true" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Igreja&theme=tokyonight&hide_border=true" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Instituto-Milla&theme=tokyonight&hide_border=true" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Reivitaliza-Plataforma-de-Higieniza-o-e-Limpeza-Profissional&theme=tokyonight&hide_border=true" />
-
-</div>
 
 ---
 
