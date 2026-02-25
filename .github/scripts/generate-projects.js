@@ -13,39 +13,37 @@ https.get(
     res.on("end", () => {
       const repos = JSON.parse(data)
         .filter(repo => !repo.fork)
-        .sort((a, b) => b.stargazers_count - a.stargazers_count)
-        .slice(0, 6);
+        .sort((a, b) => b.stargazers_count - a.stargazers_count);
 
-      const cards = `
-<div align="center">
-<table>
-<tr>
-${repos.slice(0, 3).map(repo => `
+      let cards = `<div align="center"><table><tr>`;
+      let count = 0;
+
+      repos.forEach((repo, index) => {
+        if (count === 3) {
+          cards += `</tr><tr>`;
+          count = 0;
+        }
+
+        cards += `
 <td align="center" width="33%">
 <a href="${repo.html_url}">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+<b>${repo.name}</b><br/>
+${repo.description || "Sem descrição."}<br/>
+⭐ ${repo.stargazers_count} | 🛠 ${repo.language || "N/A"}
 </a>
 </td>
-`).join("")}
-</tr>
-<tr>
-${repos.slice(3, 6).map(repo => `
-<td align="center" width="33%">
-<a href="${repo.html_url}">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
-</a>
-</td>
-`).join("")}
-</tr>
-</table>
-</div>
-`;
+        `;
+
+        count++;
+      });
+
+      cards += `</tr></table></div>`;
 
       const readme = fs.readFileSync("README.md", "utf8");
 
       const updated = readme.replace(
         /<!--START_PROJECTS-->[\s\S]*<!--END_PROJECTS-->/,
-        `<!--START_PROJECTS-->${cards}<!--END_PROJECTS-->`
+        `<!--START_PROJECTS-->\n${cards}\n<!--END_PROJECTS-->`
       );
 
       fs.writeFileSync("README.md", updated);
