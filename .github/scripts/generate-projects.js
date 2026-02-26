@@ -20,7 +20,7 @@ https.get(options, (res) => {
       const repos = JSON.parse(data);
       if (!Array.isArray(repos)) return;
 
-      // Filtra (remove forks e o próprio repo do perfil) e pega os 6 melhores
+      // Filtra repositórios (remove forks e o repo do perfil) e pega os 6 mais relevantes
       const filteredRepos = repos
         .filter(repo => !repo.fork && repo.size > 0 && repo.name !== "Vitor-dev2705")
         .sort((a, b) => b.stargazers_count - a.stargazers_count)
@@ -29,7 +29,7 @@ https.get(options, (res) => {
       let content = `\n<div align="center">\n`;
 
       filteredRepos.forEach(repo => {
-        // Usando o formato de Pin que o GitHub aceita perfeitamente
+        // Usando a API de Pins para garantir que a imagem não quebre
         content += `  <a href="${repo.html_url}">\n    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=${repo.name}&theme=tokyonight&hide_border=true" />\n  </a>\n`;
       });
 
@@ -38,16 +38,16 @@ https.get(options, (res) => {
       const readmePath = "README.md";
       const readme = fs.readFileSync(readmePath, "utf8");
       
-      // Substitui o conteúdo entre as tags
+      // Substituição mágica entre as tags que você colocou no README
       const updated = readme.replace(
         /[\s\S]*/,
         `\n${content}\n`
       );
 
       fs.writeFileSync(readmePath, updated);
-      console.log("✅ Projetos atualizados com sucesso!");
+      console.log("✅ Lista de projetos atualizada!");
     } catch (e) {
-      console.error("❌ Erro ao processar:", e.message);
+      console.error("❌ Erro ao gerar projetos:", e.message);
     }
   });
 });
