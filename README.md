@@ -23,7 +23,9 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 ---
 
 ## 🚀 Projetos
+ <!--START_PROJECTS-->
 
+<!--END_PROJECTS--> 
 ---
 
 ## 📊 Estatísticas e Repositórios
