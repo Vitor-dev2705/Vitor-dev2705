@@ -23,7 +23,9 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 ---
 
 ## 🚀 Projetos
+ <!--START_PROJECTS-->
 
+<!--END_PROJECTS--> 
 ---
 
 ## 📊 Estatísticas e Repositórios
@@ -32,11 +34,6 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
   <a href="https://github.com/Vitor-dev2705?tab=repositories">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vitor-dev2705&theme=tokyonight" />
   </a>
-</p>
-
-<p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Vitor-dev2705&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitor-dev2705&layout=compact&theme=tokyonight&border_radius=10&hide_border=true"/>
 </p>
 
 ---
