@@ -4,25 +4,36 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4 # Versão mais recente e estável
 
-      - uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - run: node .github/scripts/generate-projects.js
+      - name: Gerar Projetos
+        run: node .github/scripts/generate-projects.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Essencial para o script acessar a API
 
       - name: Commit e Push
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Atualizando projetos automaticamente"
-          git push
-        continue-on-error: true
+          # O comando abaixo evita que o workflow falhe se o README já estiver atualizado
+          git commit -m "🤖 Atualizando projetos automaticamente" || echo "Sem mudanças para commitar"
+          git push origin main
