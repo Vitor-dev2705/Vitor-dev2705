@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=200&section=header&text=Anderson%20Vitor%20Soares%20Teles%20&fontSize=50&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=200&section=header&text=Vitor%20Dev&fontSize=70&animation=fadeIn"/>
 </p>
 
 ## 👨‍💻 Sobre Mim
@@ -22,7 +22,7 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 
 ---
 
-## 🚀 Projetos Dinâmicos
+## 🚀 Projetos
 
 ---
 
@@ -62,7 +62,7 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
   </a>
 
   <a href="https://wa.me/5561982566269">
-    <img src="https://img.shields.io/badge/WhatsApp-61%2098256--6269-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
   </a>
 
   <a href="https://www.linkedin.com/in/anderson-vitor">
