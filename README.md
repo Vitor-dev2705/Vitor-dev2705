@@ -42,7 +42,6 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 
 <td align="center" width="33%">
 <a href="https://github.com/Vitor-dev2705/Gerenciador-de-Tarefas">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Gerenciador-de-Tarefas&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
 </a>
 </td>
 
@@ -51,19 +50,17 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 
 <td align="center" width="33%">
 <a href="https://github.com/Vitor-dev2705/Igreja">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Igreja&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
 </a>
 </td>
 
 <td align="center" width="33%">
 <a href="https://github.com/Vitor-dev2705/Instituto-Milla">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Instituto-Milla&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
 </a>
 </td>
 
 <td align="center" width="33%">
 <a href="https://github.com/Vitor-dev2705/Reivitaliza-Plataforma-de-Higieniza-o-e-Limpeza-Profissional">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Reivitaliza-Plataforma-de-Higieniza-o-e-Limpeza-Profissional&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+
 </a>
 </td>
 
