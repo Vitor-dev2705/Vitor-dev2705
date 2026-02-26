@@ -30,10 +30,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and Push changes
+      - name: Commit and Push Snake
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
-          git commit -m "🤖 Snake atualizada automaticamente" || echo "Sem mudanças para commitar"
-          git push
+          git commit -m "🐍 Cobra atualizada na main" || echo "Sem alterações"
+          git push origin main
