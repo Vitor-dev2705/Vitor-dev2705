@@ -24,9 +24,6 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 
 ## 🚀 Projetos
  <!--START_PROJECTS-->
-<<<<<<< HEAD
-
-=======
 <div align="center">
 <table>
 <tr>
@@ -73,7 +70,6 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 </tr>
 </table>
 </div>
->>>>>>> d58e2876f45eaf40e9585f20bfba58fbe2bb1722
 <!--END_PROJECTS--> 
 ---
 
