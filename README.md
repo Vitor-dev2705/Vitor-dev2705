@@ -24,49 +24,7 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 
 ## 🚀 Projetos
  <!--START_PROJECTS-->
-<div align="center">
-<table>
-<tr>
 
-<td align="center" width="33%">
-<a href="https://github.com/Vitor-dev2705/duckmusic">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=duckmusic&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
-</a>
-</td>
-
-<td align="center" width="33%">
-<a href="https://github.com/Vitor-dev2705/ElectronSheets">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=ElectronSheets&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
-</a>
-</td>
-
-<td align="center" width="33%">
-<a href="https://github.com/Vitor-dev2705/Gerenciador-de-Tarefas">
-</a>
-</td>
-
-</tr>
-<tr>
-
-<td align="center" width="33%">
-<a href="https://github.com/Vitor-dev2705/Igreja">
-</a>
-</td>
-
-<td align="center" width="33%">
-<a href="https://github.com/Vitor-dev2705/Instituto-Milla">
-</a>
-</td>
-
-<td align="center" width="33%">
-<a href="https://github.com/Vitor-dev2705/Reivitaliza-Plataforma-de-Higieniza-o-e-Limpeza-Profissional">
-
-</a>
-</td>
-
-</tr>
-</table>
-</div>
 <!--END_PROJECTS--> 
 ---
 
