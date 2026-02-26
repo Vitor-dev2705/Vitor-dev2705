@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=200&section=header&text=Aderson%20Vitor%20%Soares%20Teles%20&fontSize=50&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=200&section=header&text=Anderson%20Vitor%20%Soares%20Teles%20&fontSize=50&animation=fadeIn"/>
 </p>
 
 ## 👨‍💻 Sobre Mim
@@ -24,7 +24,56 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 
 ## 🚀 Projetos
  <!--START_PROJECTS-->
+<<<<<<< HEAD
 
+=======
+<div align="center">
+<table>
+<tr>
+
+<td align="center" width="33%">
+<a href="https://github.com/Vitor-dev2705/duckmusic">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=duckmusic&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+</a>
+</td>
+
+<td align="center" width="33%">
+<a href="https://github.com/Vitor-dev2705/ElectronSheets">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=ElectronSheets&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+</a>
+</td>
+
+<td align="center" width="33%">
+<a href="https://github.com/Vitor-dev2705/Gerenciador-de-Tarefas">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Gerenciador-de-Tarefas&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+</a>
+</td>
+
+</tr>
+<tr>
+
+<td align="center" width="33%">
+<a href="https://github.com/Vitor-dev2705/Igreja">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Igreja&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+</a>
+</td>
+
+<td align="center" width="33%">
+<a href="https://github.com/Vitor-dev2705/Instituto-Milla">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Instituto-Milla&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+</a>
+</td>
+
+<td align="center" width="33%">
+<a href="https://github.com/Vitor-dev2705/Reivitaliza-Plataforma-de-Higieniza-o-e-Limpeza-Profissional">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Vitor-dev2705&repo=Reivitaliza-Plataforma-de-Higieniza-o-e-Limpeza-Profissional&theme=tokyonight&border_radius=12&title_color=00ffff&icon_color=00ffff" />
+</a>
+</td>
+
+</tr>
+</table>
+</div>
+>>>>>>> d58e2876f45eaf40e9585f20bfba58fbe2bb1722
 <!--END_PROJECTS--> 
 ---
 
