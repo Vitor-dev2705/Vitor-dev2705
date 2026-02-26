@@ -23,10 +23,8 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 ---
 
 ## 🚀 Projetos Dinâmicos
- <!--START_PROJECTS-->
-
-<!--END_PROJECTS--> 
----
+<!-- repos-start -->
+<!-- repos-end -->
 
 ## 📊 Estatísticas e Repositórios
 
