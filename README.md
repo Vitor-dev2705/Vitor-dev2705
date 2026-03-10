@@ -1,30 +1,42 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=200&section=header&text=Anderson%20Vitor%20%Soares%20Teles%20&fontSize=50&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=200&section=header&text=Anderson%20Vitor%20Soares%20Teles&fontSize=50&animation=fadeIn"/>
 </p>
 
 ## 👨‍💻 Sobre Mim
 
-Desenvolvedor **Full Stack** focado na criação de aplicações modernas, performáticas e escaláveis.
+Desenvolvedor de **Software e Backend** focado na criação de aplicações escaláveis, automação de processos e integração de sistemas.
 
-Atuo no desenvolvimento de interfaces intuitivas com **React**, construção de APIs com **Node.js** e **Python**, além de integração com bancos de dados SQL e NoSQL.
+Tenho experiência no desenvolvimento de soluções utilizando **Python, Node.js, PHP e JavaScript**, além da criação de **APIs REST**, manipulação de dados e integração com bancos **SQL e NoSQL**.
 
-Tenho foco em código limpo, boas práticas, versionamento com Git e evolução contínua.
+Também atuo com **processamento e análise de dados geoespaciais**, trabalhando com imagens de satélite, extração de dados via APIs científicas e automação de pipelines de dados.
 
-🎯 **Objetivo:** Contribuir em projetos desafiadores e gerar impacto real através da tecnologia.
+🎯 **Objetivo:** Desenvolver soluções tecnológicas que transformem dados e problemas complexos em sistemas eficientes.
 
 ---
 
 ## 🛠️ Tecnologias
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,python,express,mysql,mongodb,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,nodejs,js,php,express,react,mysql,mongodb,git,github,linux,vscode" />
 </p>
 
 ---
 
-## 🚀 Projetos Dinâmicos
+## 🚀 Projetos
+
 <!-- repos-start -->
 <!-- repos-end -->
+
+- **Sistema de Controle de Estoque**  
+  Sistema web para gerenciamento de inventário com backend e banco de dados.
+
+- **DuckMusic**  
+  Plataforma de streaming de música com player integrado e consumo de APIs.
+
+- **Automação de Dados Geoespaciais**  
+  Scripts e ferramentas para processamento de imagens de satélite e extração de dados via API.
+
+---
 
 ## 📊 Estatísticas e Repositórios
 
@@ -68,7 +80,7 @@ Tenho foco em código limpo, boas práticas, versionamento com Git e evolução 
 ---
 
 <p align="center">
-  <b>“Transformando problemas em soluções através do código.”</b>
+  <b>“Transformando dados e problemas complexos em soluções através do código.”</b>
 </p>
 
 <p align="center">
