@@ -34,7 +34,6 @@ Engenheiro de Software e Desenvolvedor Backend focado em **arquitetura de dados,
 * 📊 **[tradedata-Engine](https://github.com/Vitor-dev2705/tradedata-Engine)** — Motor analítico para processamento de dados do mercado financeiro e visualização interativa.
 * 🛡️ **[invest-sentinel](https://github.com/Vitor-dev2705/invest-sentinel)** — Sistema de monitoramento de ativos e alertas do mercado financeiro.
 * 🔌 **[invest-sentinel-api](https://github.com/Vitor-dev2705/invest-sentinel-api)** — API backend para integração do ecossistema Invest Sentinel.
-* 💰 **[Finan-as](https://github.com/Vitor-dev2705/Finan-as)** — Plataforma para gestão e controle financeiro.
 
 #### ⚡ Backend, APIs & Automação
 * 🌐 **[universal-data-gateway](https://github.com/Vitor-dev2705/universal-data-gateway)** — Gateway de dados containerizado para ingestão e tratamento de dados backend.
