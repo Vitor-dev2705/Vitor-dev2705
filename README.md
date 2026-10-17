@@ -1,12 +1,23 @@
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=220&section=header&text=Anderson%20Vitor%20Soares%20Teles&fontSize=42&animation=fadeIn" alt="Header" />
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:3A7CA5,100:1D3557&height=220&section=header&text=Anderson%20Vitor%20Soares%20Teles&fontSize=42&fontColor=FFFFFF&animation=fadeIn"
+    alt="Header"
+  />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/anderson-vitor"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:telesanderson123@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://wa.me/5561982566269"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="https://linkedin.com/in/anderson-vitor">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:telesanderson123@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://wa.me/5561982566269">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  </a>
 </p>
+
 
 ---
 
